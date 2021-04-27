@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contenedor{
+    width: 100%;
+    height: 100vh;
+
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 12%;
+    padding-left: 8%;
+    padding-right: 8%;
+    display: flex;
+    align-items: center;
+   background-color: #1e272e;
+}
+h3{
+    color: #fff;
+}
+p{
+    color: #fff;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style:  none;
+    display: inline-block;
+    margin-left: 60px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+
+.contenedor2 {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo {
+    color: #ffd32a;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.videos{
+    background: #274053;
+    padding-bottom: 30px;
+}
+
+
+.cont{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.multi{
+    width: 700px;
+    margin-right: 25px;
+    text-align: center;
+}
+
+.multi iframe{
+    width: 90%;
+}
+
+.multi h3{
+    margin: 10px 0;
+}
+
+.multi p{
+    font-weight: 300;
+    text-align: justify;
+}
+
+footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    font-family: 'Open Sans';
+    padding-top: 40px;
+    color: #fff;
+    font-family: 'Open Sans';
+}
+.footer-c{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.rsocial{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+
+}
+.rsocial li{
+    margin: 0 10px;
+
+}
+.rsocial a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.rsocial a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+.rsocial a:hover i{
+ color: aqua;
+
+}
+.footer-b{
+    background-color: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+
+}
+.footer-b p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}

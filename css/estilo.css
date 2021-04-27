@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #2a5575;
+}
+.contenedor{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(../img/fondo.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style:  none;
+    display: inline-block;
+    margin-left: 60px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+.fila{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+
+}
+h1{
+    color: #fff;
+    font-size: 100px;
+}
+p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 15px;
+
+}
+.contenedor1 {
+  width: 98%;
+  margin: auto;
+}
+
+section {
+  width: 100%;
+  margin-bottom: 25px;
+}
+h3{
+    color: #eea859;
+}
+
+.texto, .texto1 {
+  text-align: center;
+}
+.texto1{
+    color: #fff;
+}
+.contenedor1{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.letra{
+    color: #fff;
+}
+
+article {
+  margin: 15px;
+}
+
+img {
+  width: 100%;
+  max-width: 280px;
+}
+.imagen{
+    height: 170px;
+}
+
+#banner .contenedor1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #fff;
+}
+
+
+.tabla {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    width: 90%;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    background-color: #ffa801;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .tabla thead tr {
+    background-color: #ca790f;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .tabla th,
+  .tabla td {
+    padding: 12px 15px;
+  }
+  
+  .tabla tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .tabla tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .tabla tbody tr:last-of-type {
+    border-bottom: 2px solid #c9cc17;
+  }
+  
+  .tabla tbody tr.otra {
+    font-weight: bold;
+    color: #a7710d;
+  }
+  .caja{
+      margin-left: 9%;
+  }
+  .c-texto{
+      text-align: center;
+      color: #eea859;
+      margin-right: 200px;
+  }
+  .t-texto{
+      color: #fff ;
+      text-align: justify;
+      margin-right: 20%;
+      margin-left: 10%;
+      line-height: 2.8rem;
+      font-weight: normal;
+  }
+  .sub{
+      
+    margin-left: 120px;
+  }
+  .ultimo h2{
+      font-size: 15px;
+  }
+.ultimo p{
+    color: #fff;
+}
+.contenido-textos{
+    margin-left: 20%;
+}
+.contenido-textos h3{
+    margin-bottom: 15px;
+}
+.contenido-textos p{
+    color: #fff;
+}
+.contenido-textos h3 span{
+    background: #c48740;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    font-family: 'Open Sans';
+    padding-top: 40px;
+    color: #fff;
+    font-family: 'Open Sans';
+}
+.footer-c{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.rsocial{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+
+}
+.rsocial li{
+    margin: 0 10px;
+
+}
+.rsocial a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.rsocial a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+.rsocial a:hover i{
+ color: aqua;
+
+}
+.footer-b{
+    background-color: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+
+}
+.footer-b p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
